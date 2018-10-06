@@ -9,7 +9,8 @@
 #
 #from __future__ import print_function
 import numpy as np
-import cv2, Image
+import cv2
+from PIL import Image
 import sys, getopt, os, tempfile
 try:
     import ipdb
